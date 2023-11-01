@@ -1,3 +1,4 @@
+# Foi estudada a implementação de um segundo neuronio em cima do código fornecido por: Hemerson Pistori
 import numpy as np
 import random
 import matplotlib.pyplot as plt
