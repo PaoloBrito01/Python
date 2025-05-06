@@ -2,7 +2,6 @@ import numpy as np
 import random
 import matplotlib.pyplot as plt
 
-# Função sigmoid e sua derivada
 def sigmoid(x):
     return 1 / (1 + np.exp(-x))
 
@@ -31,16 +30,12 @@ def treina(rede, entradas, saidas_corretas):
             erros_neuronios.append(erros_neuronio)
 
         erro = np.mean(erros_neuronios)
-        
         erro_bruto = (saidas_IA - saidas_corretas) * sigmoid_derivada(entrada_bruta)
         gradiente = np.dot(entradas.T, erro_bruto)
-        
         erros.append(erro)
         pesos.append(rede.copy())
         gradientes.append(gradiente)
-        
         print('Época:', i, ' Peso:', rede, 'Erro:', erro, 'Gradiente', gradiente)
-        
         rede = rede - TAXA_APRENDIZAGEM * gradiente
 
     return saidas_IA
@@ -48,8 +43,8 @@ def treina(rede, entradas, saidas_corretas):
 def testa(rede, entrada, limiar):
     entrada = np.array(entrada)
     entrada_bruta = np.dot(entrada, rede)
+    
     saida = sigmoid(entrada_bruta)
-
     saida_neuronio1 = saida[0] > limiar[0]
     saida_neuronio2 = saida[1] > limiar[1]
     return saida, (saida_neuronio1, saida_neuronio2)
@@ -107,6 +102,5 @@ ax3.set_xlabel('Épocas')
 ax3.set_ylabel('Gradiente')
 ax3.set_title('Gradiente durante o treinamento')
 ax3.legend()
-
 plt.tight_layout()
 plt.show()
