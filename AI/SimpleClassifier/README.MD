@@ -37,7 +37,7 @@ chmod +x instalar_dependencias.sh
 
 ## Executando o programa:
 
-Para a execução do classificador separe as imagens dentro de train e teste em suas respectivas classes e execute:
+Para a execução do classificador separe as imagens dentro de pastas train e teste em suas respectivas classes e execute:
 
 ```
 python .\main.py
@@ -70,6 +70,7 @@ Foram utilizadas as seguintes ferramentas e o código base : exemplo_pytorch_v5
 * **Desenvolvedor** - *Paolo Brito* - https://github.com/PaoloBrito01
 * **Desenvolvedor** - *Gustavo Espinosa* - https://github.com/Gustavoe29
 * **Desenvolvedor** - *Gustavo Freitas   * - https://github.com/gustxv0
+
 
 
 
