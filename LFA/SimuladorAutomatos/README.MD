@@ -24,7 +24,6 @@ python3 main.py
 ```
 
 ### Onde encontrar os autômatos salvos 
--   Todos os arquivos de grafos estão na pasta Simulador_Automatos_PaoloBrito_JoaoSchweitzer.
--   Arquivos com autômatos pré-definidos estão dentro da pasta `./Simulador_Automatos_PaoloBrito_JoaoSchweitzer/prontos`
+-   Arquivos com autômatos pré-definidos estão dentro da pasta `./exemplos`.
 
 
