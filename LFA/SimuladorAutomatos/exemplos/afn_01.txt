@@ -1,0 +1,17 @@
+#states
+s0
+s1
+s2
+s3
+#initial
+s0
+#accepting
+s1
+#transitions
+s0:a>s0
+s0:a>s2
+s0:c>s2
+s2:c>s3
+s3:c>s3
+s0:b>s1
+s2:a>s1
