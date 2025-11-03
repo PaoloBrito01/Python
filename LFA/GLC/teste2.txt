@@ -1,0 +1,6 @@
+S -> NP VP
+NP -> Det N | 'Ana' | 'João'
+VP -> V NP | V
+Det -> 'o' | 'a'
+N -> 'menino' | 'menina'
+V -> 'viu' | 'gostou'
