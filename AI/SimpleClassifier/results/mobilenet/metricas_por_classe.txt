@@ -1,0 +1,3 @@
+Classe        | Precision | Recall | F1
+enchentes     | 0.9468    | 1.0000 | 0.9727
+sem-enchentes | 1.0000    | 0.9231 | 0.9600
