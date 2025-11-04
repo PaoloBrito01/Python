@@ -64,12 +64,17 @@ Foram utilizadas as seguintes ferramentas e o código base : exemplo_pytorch_v5
 * [Tkinter](https://docs.python.org/3/library/tkinter.html) - Módulo padrão python para interfaces gráficas
 * [Exemplo Classificação](https://pytorch.org/hub/pytorch_vision_resnet/) - Exemplo de classificador
 
+Imagens obtidas em:
+
+* [MendeleyData](https://data.mendeley.com/datasets/t395bwcvbw/1) - Imagens de enchentes
+* [Kaggle](https://www.kaggle.com/datasets/heonh0/daynight-cityview) - Imagens sem enchentes
 
 ## Autores:
 
 * **Desenvolvedor** - *Paolo Brito* - https://github.com/PaoloBrito01
 * **Desenvolvedor** - *Gustavo Espinosa* - https://github.com/Gustavoe29
 * **Desenvolvedor** - *Gustavo Freitas   * - https://github.com/gustxv0
+
 
 
 
