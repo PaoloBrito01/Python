@@ -1,3 +1,0 @@
-Classe | Precision | Recall | F1 | Suporte
-mild | 0.7500 | 0.7500 | 0.7500 | 8
-severe | 0.7778 | 0.7778 | 0.7778 | 9

@@ -1,4 +1,0 @@
-Loss medio: 0.7870
-Precision: 0.7684
-Recall: 0.5882
-F1-score: 0.4858
